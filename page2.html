@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" method="POST" enctype="multipart/form-data">
+
+        <label for="username">username:</label>
+        <input type="text" id="username" placeholder="Mihai" minlength="5" maxlength="14" required> <br> <br>
+
+        <label for="password">password:</label>
+        <input type="password" id="password minlength="8" maxlength="28" required> <br>
+
+        <label for="email">email:</label>
+        <input type="email" id="email" placeholder="test@gmail.com" minlength="12" required> <br>
+
+        <label for="phone number">phone #:</label>
+        <input type="tel" id="phone #" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required> <br>
+
+        <label for="birth-day">birth day:</label>
+        <input type="date" id="birth-day" placeholder="01-01-2007" required> <br>
+
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Mr." value="Mr." name="title">
+        <label for="Ms.">Ms.</label>
+        <input type="radio" id="Ms." value="Ms." name="title"> <br>
+
+        <input type="reset"> <br>
+        <input type="submit">
+    </form>
+</body>
+</html>

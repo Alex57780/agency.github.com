@@ -1,0 +1,57 @@
+body{
+    background-color: gray;
+}
+#AgencyImage{
+    padding-left: 106em ;
+}
+
+#Test_id{
+    border: solid 5px black;
+    background-color: aliceblue;
+}
+
+#RecruitingButton{
+    width:200px;
+    height:200px;
+    font-size: 24px;
+    border-radius: 25px;
+}
+
+#RecruitingText{
+    width:500px;
+    height:500px;
+    text-align: start;
+}
+
+#RecruitingText_Text{
+    font-size: 40px;
+}
+
+#LoginPageText{
+    width:100px;
+    height:100px;
+    font-size: 30px;
+    border-radius: 25px;
+}
+
+#usernameText{
+    font-size: 28px;
+}
+
+#username{
+    border-radius: 25px;
+    width:250px;
+    height:50px;
+}
+
+#password{
+    border-radius: 25px;
+    width:250px;
+    height:50px;
+}
+
+#SubmitButton{
+    border-radius: 25px;
+    width:100px;
+    height:100px;
+}
